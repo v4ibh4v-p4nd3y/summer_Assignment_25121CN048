@@ -5,7 +5,7 @@ void main()
 {
     int a=0,b=1,c,i;
 
-    for(i=0;i<=20;i++)
+    for(i=0;i<=25;i++)
     {
         printf(" %d \n",a);
         c=a+b;
