@@ -16,7 +16,7 @@ void main(){
     }
     //The last element of the original array becomes the first element of the shifted array
     b[0]=a[n-1];
-    //Printing the shifted array
+    //Printing the shifted array60.
     printf("The shifted array is: ");
     for(i=0;i<n;i++){
         printf("%d ",b[i]);
