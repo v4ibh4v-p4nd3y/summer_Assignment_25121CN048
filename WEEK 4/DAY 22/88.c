@@ -1,0 +1,18 @@
+//Write a program to Remove spaces from string
+#include <stdio.h>
+void main() {
+    char str[100];
+    int i,j=0;
+    printf("Enter a string: ");
+    fgets(str,sizeof(str),stdin);
+    // Remove spaces from the string
+    for(i=0;str[i]!='\0';i++) {
+        // Check if the character is not a space
+        if(str[i]!=' ') {
+            str[j]=str[i];
+            j++;
+        }
+    }
+    str[j]='\0';
+    printf("String after removing spaces: %s",str);
+}
