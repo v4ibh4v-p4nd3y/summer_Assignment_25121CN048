@@ -1,4 +1,4 @@
-//Write a program to Reverse a string
+//Write git 
 #include <stdio.h>
 void main() {
     char str[100],temp;
